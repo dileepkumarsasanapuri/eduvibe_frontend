@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #052d6a; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1; 
+    overflow: hidden;
+  }
+  
+  header .logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff; 
+    transition: color 0.3s ease; 
+    &:hover {
+      color: #ccc;
+    }
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  
+  header .link {
+    display: flex;
+    gap: 2rem;
+    margin-right: 60px;
+    @media (max-width: 768px) {
+      gap: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s ease;
+      &:hover {
+        color: #ccc; 
+      }
+    }
+  }

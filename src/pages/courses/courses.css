@@ -1,0 +1,24 @@
+.courses{
+    background-image: url("../../pictures/courses.avif");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    backdrop-filter: 10px;
+    padding: 80px 0;
+    text-align: center;
+    min-height: 60vh;
+    
+
+    h2{
+        font-size: 40px;
+        color: #052d6af5;
+        margin-bottom: 30px;
+    }
+
+    .course-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+}
