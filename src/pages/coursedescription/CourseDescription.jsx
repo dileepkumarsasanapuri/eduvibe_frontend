@@ -38,6 +38,7 @@ const CourseDescription = ({user}) => {
              currency: "INR",
               name: "EduVIBE", //your business name
               description: "Test Transaction",
+              image: "https://example.com/your_logo",
               order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
 
              handler: async function(response){
